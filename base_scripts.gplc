@@ -307,7 +307,6 @@ sig129 129
 ~
 --signal 128
 init_npc npc_type array_index
-send_signal sig129 w u v
 --signal 129
 cpede_move 35 0
 --signal 130
@@ -322,7 +321,6 @@ sig129 129
 ~
 --signal 128
 init_npc npc_type array_index
-send_signal sig129 w u v
 --signal 129
 cpede_move 35 0
 --signal 130
