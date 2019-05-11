@@ -1,0 +1,50 @@
+Main menu 		->	New game 		->	HNTR
+							->	PODP
+							->	UD 
+							->	HSN
+
+			->	Load game 		->	Game slot 0
+							->	Game slot 1
+							->	Game slot 2
+							->	Game slot 3
+							-> 	Game slot 4
+							->	Game slot 5
+							->	Game slot 6
+							->	Game slot 7
+
+			->	Settings 		->	Controls 		->	Pause
+											->	Forward
+											->	Back
+											->	Strafe left
+											->	Strafe right
+											->	Turn left
+											->	Turn right
+											->	Jump
+											->	Light torch
+											->	Switch view mode
+											->	Rotate 3rd person view
+											->	Fire
+											->	Select menu option
+											->	Go back one level in menu
+											->	Return to menu root
+
+							->	Graphics 		->	Resolution 		->	3840 x 2160 (4K)
+															->	2560 x 1440 (1440p)
+															->	1920 x 1080 (1080p)
+															->	1280 x 720 (720p)
+															->	1024 x 1024
+															->	800 x 800
+															->	640 x 640
+
+											->	FPS limit 		->	60
+															->	50
+															->	40
+
+											->	OSM 			->	None
+															->	FPS only
+															->	FPS and game time
+
+							->	Sound 		->	Music 		->	On
+															->	Off
+
+			->	Exit

@@ -20,7 +20,7 @@
 ~
 0 0 1 1 5 n
 ~
-0 17 0 1 6 y 20 w 0 v 0 w_ 1 u_ 18 obj_flag 8529 obj_flag_base 8530 diff_fac 10 pos_u 18500000 pos_v 0 pos_w 500000
+0 17 0 1 6 y 20 w 0 v 0 w_ 1 u_ 18 obj_flab 8529 obj_flag_base 8530 diff_fac c pos_u 18500000 pos_v 0 pos_w 500000
 ~
 0 17 1 1 6 y 20 w 0 v 1 w_ 1 u_ 19 obj_flag 8559 obj_flag_base 8560 diff_fac 20 pos_u 18500000 pos_v 1000000 pos_w 500000
 ~
