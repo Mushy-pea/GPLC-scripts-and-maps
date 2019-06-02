@@ -86,3 +86,18 @@
 2:50 FPS
 3:40 FPS
 ~
+0:Main menu -> Settings -> Graphics
+0: -> On screen metrics
+0:
+0:
+1:None
+2:FPS
+3:Game time
+4:FPS and game time
+~
+0:Main menu -> Settings -> Sound -> Music
+0:
+0:
+0:
+1:On
+2:Off
