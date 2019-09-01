@@ -337,3 +337,11 @@ send_signal sig131 nl3 nl4 nl5
 chg_grid add nl6 nl1 nl2 nl6 nl1 nl2
 chg_grid_ add nl0 nl1 nl2 nl0 nl1 nl2
 send_signal sig131 nl3 nl4 nl5
+~
+initial script (test map 2) (22)
+~
+w 0 u 4 v 10 cr_u 2 cr_v 2 sig128 128 mode 0
+~
+--signal 1
+send_signal sig128 w cr_u cr_v
+chg_grid_ mode w u v w u v
