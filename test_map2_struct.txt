@@ -1,3 +1,9 @@
 0 2 2 3 16 y 20 nl0 0 nl1 2 nl2 2 array_index 0 w 0 u 2 v 2 fg_pos_w 100000 fg_pos_u 2000000 fg_pos_v 2000000
 ~
 0 4 10 1 22 n
+~
+0 0 1 1 5 n
+~
+0 1 0 1 4 n
+~
+0 0 0 1 12 n
