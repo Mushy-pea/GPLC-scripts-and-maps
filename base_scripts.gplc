@@ -239,8 +239,8 @@ pass_msg 6 msg_length1 3 1500000 32500000 2100000
 zombie smiley (16)
 ~
 nl0 0 nl1 0 nl2 0 nl3 0 nl4 0 nl5 0 c0 0 c1 0 array_index 0 base_id 148 climb_flag 0 fireball_flag 0 fb_w 0 fb_u 0 fb_v 0 fb_angle 0 npc_type 1 c_health 40 w 0 u 0 v 1 w_ 0 u_ 0 v_ 1
-fg_pos_w 0 fg_pos_u 0 fg_pos_v 0 dir_vector_u 25000 dir_vector_v 0 direction 0 last_dir 0 speed 25000 avoid_dist 1 attack_mode 1 fire_prob 100 dir0 1 dir1 1 dir2 1 dir3 1 dir4 1 dir5 1 node_num 0 end_node 5 head_index 0
-sig129 129 sig131 131 texture__ 9 rep 1 add 0 nl6 0 sig2 2 one 1 zero 0 gun_w 0 gun_u 0 gun_v 17 sig150 150
+fg_pos_w 0 fg_pos_u 0 fg_pos_v 0 dir_vector_u 25000 dir_vector_v 0 direction 0 last_dir 0 speed 25000 avoid_dist 1 attack_mode 1 fire_prob 80 dir0 1 dir1 1 dir2 1 dir3 1 dir4 1 dir5 1 node_num 0 end_node 5 head_index 0
+sig129 129 sig131 131 texture__ 9 rep 1 add 0 nl6 0 sig2 2 one 1 zero 0 gun_w 0 gun_u 0 gun_v 17
 ~
 --signal 0
 npc_damage 0
@@ -252,10 +252,10 @@ if 0 climb_flag zero 54 2
 if 0 fireball_flag one 44 4
 npc_decision fireball_flag
 npc_move climb_flag
-chg_value_ 76 one fb_w gun_w gun_u gun_v
-chg_value_ 77 one fb_u gun_w gun_u gun_v
-chg_value_ 78 one fb_v gun_w gun_u gun_v
-chg_value_ 79 one fb_angle gun_w gun_u gun_v
+chg_value_ 99 one fb_w gun_w gun_u gun_v
+chg_value_ 100 one fb_u gun_w gun_u gun_v
+chg_value_ 101 one fb_v gun_w gun_u gun_v
+chg_value_ 102 one fb_angle gun_w gun_u gun_v
 chg_value fireball_flag one zero nl0 nl1 nl2
 send_signal sig2 gun_w gun_u gun_v
 npc_decision fireball_flag
@@ -354,29 +354,31 @@ w 0 u 4 v 10 cr_u 2 cr_v 2 sig128 128 mode 0 ammo 1 shots 10 rend_mode 4 abs 1 d
 --signal 1
 chg_ps1 ammo ammo shots
 chg_ps1 torches mode ammo
-chg_ps0 rend_mode abs dark
 send_signal sig128 w cr_u cr_v
 chg_grid_ mode w u v w u v
 ~
 NPC gun (23)
 ~
-w 0 u 0 v 17 u_ 1 v_ 16 u_limit 11 zero 0 one 1 obj_flag 8600 obj_flag_base 8600 fb_w 0 fb_u 0 fb_v 0 fb_angle 0 fb_speed 50000
+w 0 u 0 v 17 u_ 1 v_ 16 u_limit 11 zero 0 one 1 obj_flag 8600 obj_flag_base 8600 fb_w 0 fb_u 0 fb_v 0 fb_angle 0 fb_speed 100000
 msg_length 3 sig2 2
 ~
 --signal 2
+if 0 u_ u_limit 38 38
 project_init fb_u fb_v fb_w fb_angle fb_speed w u v_ w u_ v 96 obj_flag
 send_signal sig2 w u_ v
 pass_msg 5 msg_length 2 15 15
-if 0 u_ u_limit 14 14
 chg_value u_ one one w u v
 chg_value obj_flag one obj_flag_base w u v
+project_init fb_u fb_v fb_w fb_angle fb_speed w u v_ w u_ v 96 obj_flag
+send_signal sig2 w u_ v
+pass_msg 5 msg_length 2 15 15
 chg_value u_ zero one w u v
 chg_value obj_flag zero one w u v
 ~
 projectile prototype (fireball) (24)
 ~
 i0 0 i1 0 i2 0 u 0 v 0 w_block 0 vel_u 0 vel_v 0 init_u_block 0 init_v_block 0 obj_flag 0 hit_state 0 w_ 0 u_ 0 v_ 0 copy 2 model_w -1 model_u 0 model_v 1 sig3 3 zero 0
-one 1 two 2 obj_flag_ 11 colour_r 700000 colour_g 200000 colour_b 0 light_w 500000
+one 1 two 2 obj_flag_ 11 colour_r 700000 colour_g 200000 colour_b 0 light_w 500000 sig150 150
 ~
 --signal 2
 chg_state one one u model_w model_u model_v model_w init_u_block init_v_block
@@ -388,7 +390,7 @@ if 2 hit_state zero 27 18
 if 0 hit_state one 8 13
 chg_grid_ zero i0 i1 i2 i0 i1 i2
 chg_grid_ zero i0 i1 i2 i0 i1 i2
-send_signal zero w_ u_ v_
+send_signal sig150 w_ u_ v_
 project_update u u i0 i1 i2
 place_light colour_r colour_g colour_b u v light_w
 send_signal sig3 i0 i1 i2
