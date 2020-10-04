@@ -426,3 +426,10 @@ pass_msg 124 msg_length2 6 0 8 3 -1 0 19 41 44 44 51 64 63 46 34 31 44 31 65 45 
 --signal 4
 pass_msg 4 msg_length1 2 16
 pass_msg 56 msg_length3 6 0 8 3 -1 0 25 31 45 64 63 42 38 31 27 45 31 73 63 15 40 31 63 45 47 33 27 44 63 40 41 63 39 35 38 37 63 46 34 27 40 37 45 66 -1 0 63 -1 0 63 -1 1 15 11
+~
+inter map portal (26)
+~
+msg_length 2
+~
+--signal 1
+pass_msg 4 msg_length -5 2
