@@ -1,6 +1,5 @@
 
 *.bak
-map1_.out
-map1__.out
+*.out
 map1_structure__.txt
 output_diff.txt
