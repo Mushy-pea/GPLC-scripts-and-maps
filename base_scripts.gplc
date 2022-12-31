@@ -462,3 +462,10 @@ w 0 u 4 v 10 cr_u 2 cr_v 2 sig128 128 mode 0 ammo 1 shots 200 rend_mode 4 abs 1 
 chg_ps1 ammo ammo shots
 chg_ps0 rend_mode abs dark
 chg_grid_ mode w u v w u v
+~
+initial script (map 3) (28)
+~
+w 0 u 3 v 3 sig128 128 cp_u 14 cp_v 14
+~
+--signal 1
+send_signal sig128 w cp_u cp_v
