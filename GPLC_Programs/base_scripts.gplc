@@ -66,7 +66,7 @@ chg_grid_ copy w1 u v w1 u' v'
 pass_msg 28 msg_length0 0 25 41 47 63 33 41 46 63 27 63 33 31 39 66 63 8 31 27 38 46 34 63 70 54 66
 pass_msg 4 msg_length1 2 2
 ~
-projectile prototype (bullet) (4)
+bullet prototype (4)
 ~
 i0 0 i1 0 i2 0 u 0 v 0 w_block 0 vel_u 0 vel_v 0 init_u_block 0 init_v_block 0 obj_flag 0 hit_state 0 w_ 0 u_ 0 v_ 0 copy 2 model_w -1 model_u 0 model_v 1
 sig3 3 zero 0 one 1 two 2 obj_flag_ 11 w 0 three 3
@@ -407,7 +407,7 @@ pass_msg 4 msg_length 2 15
 chg_value u_ zero one w u v
 chg_value obj_flag zero one w u v
 ~
-projectile prototype (fireball) (24)
+fireball prototype (24)
 ~
 i0 0 i1 0 i2 0 u 0 v 0 w_block 0 vel_u 0 vel_v 0 init_u_block 0 init_v_block 0 obj_flag 0 hit_state 0 w_ 0 u_ 0 v_ 0 copy 2 model_w -1 model_u 0 model_v 1
 sig3 3 zero 0 one 1 two 2 obj_flag_ 11 w 0 colour_r 700000 colour_g 200000 colour_b 0 light_w 500000 sig150 150 fail -1 three 3
