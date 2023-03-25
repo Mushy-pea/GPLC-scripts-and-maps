@@ -1,4 +1,4 @@
-ProjectilePrototype
+BulletPrototype
 ~
 i0 0 i1 0 i2 0 u 0 v 0 w_block 0 vel_u 0 vel_v 0 
  init_u_block 0 init_v_block 0 obj_flag 0 hit_state 0 w_ 0 u_ 0 v_ 0 copy 2 
