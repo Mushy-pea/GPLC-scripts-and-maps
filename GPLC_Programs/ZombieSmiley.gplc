@@ -16,7 +16,7 @@ nl0 0 nl1 0 nl2 0 nl3 0 nl4 0 nl5 0 c0 0 c1 0
  send_signal sig129 w u v 
  --signal 129 
  if 0 climb_flag zero 54 2 
- if 0 fireball_flag one 44 4 
+ if_ 0 fireball_flag one 44 4 
  npc_decision fireball_flag 
  npc_move climb_flag 
  chg_value_ 97 one fb_w gun_w gun_u gun_v 

@@ -13,7 +13,7 @@ i0 0 i1 0 i2 0 u 0 v 0 w_block 0 vel_u 0 vel_v 0
  send_signal sig3 i0 i1 i2 
  --signal 3 
  if 2 hit_state zero 27 11 
- if 0 hit_state one 8 13 
+ if_ 0 hit_state one 8 13 
  chg_grid_ zero i0 i1 i2 i0 i1 i2 
  chg_grid_ zero i0 i1 i2 i0 i1 i2 
  send_signal zero w_ u_ v_ 

@@ -17,7 +17,7 @@ w 0 u 0 v 0 ps_0 0 ps_1 0 ps_2 0 ps_3 0 ps_4 0
  send_signal sig4 w u v 
  --signal 4 
  if 2 game_t ps_10 49 0 
- if 2 torches w 12 31 
+ if_ 2 torches w 12 31 
  chg_ps1 torches_ sub unit 
  chg_ps0 torch_t0' unit game_t_ 
  chg_ps0 torch_t_limit' unit torch_t_limit 

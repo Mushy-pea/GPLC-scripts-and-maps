@@ -16,7 +16,7 @@ w 0 u 0 v 1 v_ 1 sig2 2 sig3 3 sig4 4 pos_u 0
  send_signal sig3 w u v 
  --signal 3 
  if 2 ammo zero 52 10 
- if 2 v_ v_limit 19 27 
+ if_ 2 v_ v_limit 19 27 
  chg_value v_ v copy w u v 
  chg_value obj_flag v obj_flag_base w u v 
  send_signal sig3 w u v 
