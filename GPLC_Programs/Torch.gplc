@@ -1,7 +1,15 @@
 Torch
 ~
-w1 0 u 11 v 6 val 3 abs 0 v_ 1 mode 0 w0 -1 
- msg_length0 17 msg_length1 2 
+w1 = 0 
+ u = 11 
+ v = 6 
+ val = 3 
+ abs = 0 
+ v_ = 1 
+ mode = 0 
+ w0 = -1 
+ msg_length0 = 17 
+ msg_length1 = 2 
  ~ 
  --signal 1 
  chg_ps1 val abs v_ 

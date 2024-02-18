@@ -1,8 +1,25 @@
 Gem
 ~
-w1 0 u 0 v 0 health 0 gems 2 add 0 v_ 1 mode 0 
- w0 -1 msg_length0 26 msg_length1 2 u' 25 v' 18 del 0 u__ 1 v__ 2 
- rep 1 new_u 25000000 new_v 18000000 copy 2 
+w1 = 0 
+ u = 0 
+ v = 0 
+ health = 0 
+ gems = 2 
+ add = 0 
+ v_ = 1 
+ mode = 0 
+ w0 = -1 
+ msg_length0 = 26 
+ msg_length1 = 2 
+ u' = 25 
+ v' = 18 
+ del = 0 
+ u__ = 1 
+ v__ = 2 
+ rep = 1 
+ new_u = 25000000 
+ new_v = 18000000 
+ copy = 2 
  ~ 
  --signal 1 
  chg_ps1 health add v_ 

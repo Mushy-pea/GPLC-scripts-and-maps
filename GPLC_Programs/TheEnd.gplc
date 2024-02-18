@@ -1,6 +1,12 @@
 TheEnd
 ~
-w0 0 u 0 v 0 w1 -1 mode 0 msg_length0 39 msg_length1 2 
+w0 = 0 
+ u = 0 
+ v = 0 
+ w1 = -1 
+ mode = 0 
+ msg_length0 = 39 
+ msg_length1 = 2 
  ~ 
  --signal 1 
  chg_grid_ mode w0 u v w0 u v 

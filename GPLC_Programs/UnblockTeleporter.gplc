@@ -1,11 +1,45 @@
 UnblockTeleporter
 ~
-w 2 u 37 v 1 health 0 ammo 0 gems 0 torches 0 key0 0 
- key1 0 key2 0 key3 0 key4 0 key5 0 remove 0 
- w' -3 texture 9 abs 1 tex1 1 msg_length0 34 msg_length1 45 sig4 4 sig2 2 
- w_ 0 u_ 17 v_0 0 v_1 1 v_2 2 v_3 3 v_4 4 v_5 5 
- v_6 6 v_7 7 v_8 8 w_door -1 u_door 6 
- v_door 20 sig2 2 blue_key 80 u__ 38 msg_length2 2 
+w = 2 
+ u = 37 
+ v = 1 
+ health = 0 
+ ammo = 0 
+ gems = 0 
+ torches = 0 
+ key0 = 0 
+ key1 = 0 
+ key2 = 0 
+ key3 = 0 
+ key4 = 0 
+ key5 = 0 
+ remove = 0 
+ w' = -3 
+ texture = 9 
+ abs = 1 
+ tex1 = 1 
+ msg_length0 = 34 
+ msg_length1 = 45 
+ sig4 = 4 
+ sig2 = 2 
+ w_ = 0 
+ u_ = 17 
+ v_0 = 0 
+ v_1 = 1 
+ v_2 = 2 
+ v_3 = 3 
+ v_4 = 4 
+ v_5 = 5 
+ v_6 = 6 
+ v_7 = 7 
+ v_8 = 8 
+ w_door = -1 
+ u_door = 6 
+ v_door = 20 
+ sig2 = 2 
+ blue_key = 80 
+ u__ = 38 
+ msg_length2 = 2 
  ~ 
  --signal 1 
  copy_ps1 health w u v 

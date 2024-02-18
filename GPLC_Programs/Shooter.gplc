@@ -1,9 +1,34 @@
 Shooter
 ~
-w 0 u 17 v 0 dice_result 0 w' 0 u' 1 v' 0 w_ 1 
- u_ 18 v_ 24 v_base 25 v_limit 45 obj_flag 0 obj_flag_base 0 prob_fac 10 diff_fac 0 
- on_switch 1 sig2 2 sig3 3 add 0 abs 1 copy 2 pos_u 0 pos_v 0 
- pos_w 0 angle 0 speed 200000 off 0 on 1 
+w = 0 
+ u = 17 
+ v = 0 
+ dice_result = 0 
+ w' = 0 
+ u' = 1 
+ v' = 0 
+ w_ = 1 
+ u_ = 18 
+ v_ = 24 
+ v_base = 25 
+ v_limit = 45 
+ obj_flag = 0 
+ obj_flag_base = 0 
+ prob_fac = 10 
+ diff_fac = 0 
+ on_switch = 1 
+ sig2 = 2 
+ sig3 = 3 
+ add = 0 
+ abs = 1 
+ copy = 2 
+ pos_u = 0 
+ pos_v = 0 
+ pos_w = 0 
+ angle = 0 
+ speed = 200000 
+ off = 0 
+ on = 1 
  ~ 
  --signal 2 
  if 0 on_switch on 44 0 

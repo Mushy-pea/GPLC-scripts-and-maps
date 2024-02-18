@@ -1,6 +1,11 @@
 Teleporter2
 ~
-w 0 u 0 v 0 msg_length0 23 msg_length1 4 msg_length2 2 
+w = 0 
+ u = 0 
+ v = 0 
+ msg_length0 = 23 
+ msg_length1 = 4 
+ msg_length2 = 2 
  ~ 
  --signal 1 
  pass_msg 25 msg_length0 0 16 38 27 51 31 44 63 49 27 45 63 46 

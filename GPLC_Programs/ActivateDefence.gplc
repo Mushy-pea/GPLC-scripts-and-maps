@@ -1,9 +1,32 @@
 ActivateDefence
 ~
-w 0 u 23 v 12 w' 0 u' 24 v' 12 w'' 2 u'' 23 
- v'' 12 w''' 2 u''' 24 v''' 12 sig2 2 w_ 0 u_ 17 v_0 0 
- v_1 1 v_2 2 v_3 3 v_4 4 v_5 5 v_6 6 v_7 7 v_8 8 
- msg_length0 26 msg_length1 2 zero 0 
+w = 0 
+ u = 23 
+ v = 12 
+ w' = 0 
+ u' = 24 
+ v' = 12 
+ w'' = 2 
+ u'' = 23 
+ v'' = 12 
+ w''' = 2 
+ u''' = 24 
+ v''' = 12 
+ sig2 = 2 
+ w_ = 0 
+ u_ = 17 
+ v_0 = 0 
+ v_1 = 1 
+ v_2 = 2 
+ v_3 = 3 
+ v_4 = 4 
+ v_5 = 5 
+ v_6 = 6 
+ v_7 = 7 
+ v_8 = 8 
+ msg_length0 = 26 
+ msg_length1 = 2 
+ zero = 0 
  ~ 
  --signal 1 
  send_signal sig2 w_ u_ v_0 

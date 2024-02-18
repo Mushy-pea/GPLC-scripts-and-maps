@@ -1,7 +1,18 @@
 InitialScript2_2
 ~
-w 0 u 4 v 10 cr_u 2 cr_v 2 sig128 128 mode 0 ammo 1 
- shots 200 rend_mode 4 abs 1 dark 1 torches 3 
+w = 0 
+ u = 4 
+ v = 10 
+ cr_u = 2 
+ cr_v = 2 
+ sig128 = 128 
+ mode = 0 
+ ammo = 1 
+ shots = 200 
+ rend_mode = 4 
+ abs = 1 
+ dark = 1 
+ torches = 3 
  ~ 
  --signal 1 
  chg_ps1 ammo ammo shots 

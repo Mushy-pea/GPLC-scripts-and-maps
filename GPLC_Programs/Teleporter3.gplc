@@ -1,7 +1,14 @@
 Teleporter3
 ~
-w 0 u 0 v 0 rend_mode 4 abs 1 msg_length0 23 msg_length1 4 light 0 
- msg_length2 2 
+w = 0 
+ u = 0 
+ v = 0 
+ rend_mode = 4 
+ abs = 1 
+ msg_length0 = 23 
+ msg_length1 = 4 
+ light = 0 
+ msg_length2 = 2 
  ~ 
  --signal 1 
  chg_ps0 rend_mode abs light 

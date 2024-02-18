@@ -1,6 +1,12 @@
 NPC_Sarah
 ~
-i0 0 i1 8 i2 3 msg_length0 125 msg_length1 2 msg_length2 122 msg_length3 54 
+i0 = 0 
+ i1 = 8 
+ i2 = 3 
+ msg_length0 = 125 
+ msg_length1 = 2 
+ msg_length2 = 122 
+ msg_length3 = 54 
  ~ 
  --signal 1 
  pass_msg 4 msg_length1 2 1 
