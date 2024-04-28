@@ -31,7 +31,7 @@ w = 0
  on = 1 
  ~ 
  --signal 2 
- if 0 on_switch on 44 0 
+ if 0 on_switch on 44 2 
  if_ 0 dice_result off 12 26 
  binary_dice prob_fac diff_fac w u v dice_result 
  send_signal sig2 w u v 
@@ -39,6 +39,7 @@ w = 0
  chg_value v_ add on w u v 
  chg_value obj_flag add on w u v 
  send_signal sig3 w u v 
+ do_nothing 0 
  --signal 3 
  if 2 v_ v_limit 19 24 
  chg_value v_ abs v_base w u v 
