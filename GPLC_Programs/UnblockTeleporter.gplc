@@ -46,11 +46,11 @@ w = 2
  copy_ps1 health w u v 
  send_signal sig2 w u v 
  --signal 2 
- if 0 key2 blue_key 71 51 
+ if 0 key2 blue_key 73 51 
  chg_state texture abs tex1 w' u__ v w' u__ v 
  chg_grid remove w_door u_door v_door w_door u_door v_door 
  chg_grid_ remove w_ u_door v_door w_ u_door v_door 
- chg_obj_type block w u v 
+ chg_value_ 0 abs abs w u v 
  pass_msg 36 msg_length0 0 1 63 30 41 41 44 63 34 27 45 63 41 
  42 31 40 31 30 63 45 41 39 31 49 34 31 44 31 63 
  31 38 45 31 66 
