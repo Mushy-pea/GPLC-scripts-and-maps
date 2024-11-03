@@ -26,3 +26,8 @@ PlayerGun
 Teleporter1
 TheEnd
 ZombieSmiley
+StartLight
+MultiColourLight
+LightSwitch
+MapTransition1
+MapTransition2
