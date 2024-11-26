@@ -1,8 +1,10 @@
 MapTransition1
 ~
 w = 0 
- u = 1 
- v = 22 
+ u0 = 1 
+ v0 = 22 
+ u1 = 5 
+ v1 = 12 
  posW = 1 
  posU = 2 
  posV = 3 
@@ -13,10 +15,12 @@ w = 0
  nextMap = 2 
  flag = 0 
  SaveGame = 3 
+ on = 1 
  ~ 
  --signal 1 
  chg_ps0 posW flag nextW 
  chg_ps0 posU flag nextU 
  chg_ps0 posV flag nextV 
  chg_ps0 currentMap flag nextMap 
+ chg_obj_type on w u1 v1 
  set_event_context SaveGame
