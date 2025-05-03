@@ -7,7 +7,9 @@ w = 0
  v1 = 13 
  sig6 = 6 
  off = 0 
+ class = 2 
  ~ 
  --signal 1 
+ set_player_class class 
  send_signal sig6 w u1 v1 
  chg_obj_type off w u0 v0

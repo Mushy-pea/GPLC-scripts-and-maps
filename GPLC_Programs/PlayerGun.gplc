@@ -28,6 +28,7 @@ w = 0
  key3 = 0 
  key4 = 0 
  key5 = 0 
+ player_class = 0 
  zero = 0 
  speed = 200000 
  copy = 2 
